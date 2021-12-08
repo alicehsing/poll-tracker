@@ -14,23 +14,24 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
+        <div class="gutter-right-logo">
             <img src="./assets/big-logo.png" />
         </div>
     </header>
-    <main>
+    <main><br> Welcome to the Poll Maker App!!!
         <section class="main-section">
+            Type in your question and vote options to generate the poll.
         <div class="top">
             <div class="left">
                 <form>
                     <label> Question:
-                        <input>
+                        <input name="poll-question">
                     </label>
                     <label> Option A:
-                        <input>
+                        <input name="poll-option-a">
                     </label>
                     <label> Option B:
-                        <input>
+                        <input name="poll-option-b">
                     </label>
                     <button id="start-poll">Start Poll</button>
                 </form>
@@ -38,14 +39,16 @@
             <div class="right">
                 <div class="poll-display">
                     <h2>Current Poll</h2>
-                    <p id="poll-question"></p>
+                    <p id="poll-question">What Color
+                        ?
+                    </p>
                     <div class="options">
                         <div id="option-a">
-                        <p id="option-a-title"></p>
+                        <p id="option-a-title">Blue</p>
                         <p id="option-a-votes"></p>
                         </div>
                         <div id="option-b">
-                        <p id="option-b-title"></p>
+                        <p id="option-b-title">Red</p>
                         <p id="option-b-votes"></p>
                         </div>
                     </div>
@@ -67,7 +70,7 @@
             <div class="bottom">
                 <h2>Past Polls</h2>
                 <hr />
-                <div class="past-polls"></div>
+                <div id="past-polls"></div>
             </div>
         </section>
     </main>
