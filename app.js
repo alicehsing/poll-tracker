@@ -1,4 +1,5 @@
 // import functions and grab DOM elements
+// import { renderPastPoll } from './render-utils.js';
 
 // let state
 
