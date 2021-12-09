@@ -18,9 +18,9 @@
             <img src="./assets/big-logo.png" />
         </div>
     </header>
-    <main><br> Welcome to the Poll Maker App!!!
+    <main>
         <section class="main-section">
-            Type in your question and vote options to generate the poll.
+            Welcome to the Poll Maker App!!! <hr> Type in your question and vote options to generate the poll.
         <div class="top">
             <div class="left">
                 <form>
@@ -38,17 +38,15 @@
             </div>
             <div class="right">
                 <div class="poll-display">
-                    <h2>Current Poll</h2>
-                    <p id="poll-question">What Color
-                        ?
-                    </p>
+                    <h3>Current Poll</h3>
+                    <p id="poll-question"></p>
                     <div class="options">
                         <div id="option-a">
-                        <p id="option-a-title">Blue</p>
+                        <p id="option-a-title"></p>
                         <p id="option-a-votes"></p>
                         </div>
                         <div id="option-b">
-                        <p id="option-b-title">Red</p>
+                        <p id="option-b-title"></p>
                         <p id="option-b-votes"></p>
                         </div>
                     </div>
@@ -66,12 +64,14 @@
             </div>
             
         </div>    
-        <button id="close-poll">Close Poll</button>
-            <div class="bottom">
-                <h2>Past Polls</h2>
-                <hr />
-                <div id="past-polls"></div>
+        <button id="close-poll">Close Poll</button><br>
+        <h3>Past Polls</h3>
+        <div class="bottom">
+            <div id="past-poll-display"> 
+                    <div id="past-polls"></div>
             </div>
+                
+        </div>
         </section>
     </main>
     <footer>
